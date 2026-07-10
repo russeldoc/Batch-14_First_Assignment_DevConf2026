@@ -6,7 +6,7 @@
 
 /* nav section start */
 .container {
-    max-width: 1260px;
+    max-width: 1600px;
     padding: 20px;
     margin: auto;
     display: flex;
@@ -35,9 +35,35 @@
 }
 
 /* nav section end */
-.hero-container {
-    padding-top: 75px;
-    width: 1260px;
-    margin: auto;
 
+/* hero section star */
+.hero-container {
+    height: 70vh;
+    background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    max-width: 800px;
+}
+
+.hero-container h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.hero-container p {
+    font-size: 20px;
+    color: white;
 }
