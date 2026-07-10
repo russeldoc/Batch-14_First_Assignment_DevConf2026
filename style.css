@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Arimo", sans-serif;
+}
+
+/* nav section start */
+.container {
+    max-width: 1260px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    color: #575757;
+    font-size: 16px;
+    cursor: pointer;
+    gap: 25px;
+}
+
+.common-btn {
+    background-color: #1D4ED8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+/* nav section end */
+.hero-container {
+    padding-top: 75px;
+    width: 1260px;
+    margin: auto;
+
+}
