@@ -24,14 +24,15 @@
 }
 
 .common-btn {
+    width: 25%;
     background-color: #1D4ED8;
-    padding: 10px 20px;
+    padding: 16px;
+    border: none;
     border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: bold;
     color: #FFFFFF;
     cursor: pointer;
-    border: none;
 }
 
 /* nav section end */
@@ -114,4 +115,119 @@
 .speaker-child h3 {
     margin: 5px 0;
     text-align: left;
+}
+
+/* Secure Your Sport section start */
+
+.spot-parent {
+    margin-top: 65px;
+    padding: 20px;
+}
+
+/* heading */
+.parent-text {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.parent-text h1 {
+    font-size: 48px;
+    font-weight: 300;
+    color: #0D1B2A;
+    margin-bottom: 15px;
+}
+
+.parent-text p {
+    font-size: 18px;
+    color: #6b7280;
+}
+
+/* cards container */
+.sport-child {
+    margin-top: 50px auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.pricing-card-text {
+    margin-bottom: 30px;
+}
+
+.pricing-card-text h4 {
+    font-size: 21px;
+    font-weight: 100;
+}
+
+.pricing-card-text h1 {
+    font-size: 48px;
+}
+
+.sport-offers {
+    line-height: 1.5;
+    font-size: 21px;
+    padding-bottom: 25px;
+}
+
+.pro-spot {
+    padding: 30px;
+    background-color: #0D1B2A;
+    width: 300px;
+    color: white;
+}
+
+.standard-btn {
+    width: 100%;
+    padding: 16px;
+    border-radius: 10px;
+    border: 2px solid #1D4ED8;
+    background: white;
+    color: #1D4ED8;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.standard-btn:hover {
+    background: #1D4ED8;
+    color: white;
+}
+
+.pro-button {
+    width: 100%;
+    padding: 16px;
+    border-radius: 10px;
+    border: 2px solid #1D4ED8;
+    background: #1D4ED8;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.pro-button:hover {
+    background-color: rgb(192, 98, 144);
+    color: #1D4ED8;
+}
+
+.pricing-card {
+    max-width: 380px;
+    min-height: 380px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.parent-text {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sport-child {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
 }
