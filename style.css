@@ -132,7 +132,7 @@
 
 .parent-text h1 {
     font-size: 48px;
-    font-weight: 300;
+    font-weight: 700;
     color: #0D1B2A;
     margin-bottom: 15px;
 }
@@ -230,4 +230,86 @@
     justify-content: center;
     gap: 35px;
     flex-wrap: wrap;
+}
+
+/* ==========================
+   AI Playground Section
+========================== */
+
+.playground {
+    padding: 80px 20px;
+    background: #F8FAFC;
+}
+
+.playground-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.playground-heading h1 {
+    font-size: 48px;
+    color: #0D1B2A;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.playground-heading p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #6B7280;
+    line-height: 1.6;
+}
+
+/* Container */
+
+.playground-container {
+    max-width: 1260px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* Cards */
+
+.play-card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.play-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.play-card h3 {
+    font-size: 28px;
+    color: #0D1B2A;
+    margin-bottom: 15px;
+}
+
+.play-card p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.7;
+}
+
+/* Responsive */
+
+@media (max-width: 992px) {
+    .playground-container {
+        grid-template-columns: 1fr;
+    }
 }
