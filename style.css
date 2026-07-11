@@ -38,7 +38,7 @@
 
 /* hero section star */
 .hero-container {
-    height: 60vh;
+    height: 70vh;
     background-image: url(./assets/banner.jpg);
     background-size: cover;
     background-position: center;
@@ -75,4 +75,43 @@
     font-size: 20px;
     color: white;
     line-height: 1.6;
+}
+
+/* hero section end */
+
+/* Meet the speakers start */
+
+.speaker-parent h1 {
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 48px;
+}
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.speaker-child {
+    padding: 20px;
+    text-align: left;
+}
+
+.speaker-child img {
+    width: 100%;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.speaker-child h5 {
+    margin: 5px 0;
+    text-align: left;
+}
+
+.speaker-child h3 {
+    margin: 5px 0;
+    text-align: left;
 }
