@@ -232,9 +232,7 @@
     flex-wrap: wrap;
 }
 
-/* ==========================
-   AI Playground Section
-========================== */
+/* Ai Playground section start */
 
 .playground {
     padding: 80px 20px;
@@ -306,10 +304,75 @@
     line-height: 1.7;
 }
 
-/* Responsive */
 
-@media (max-width: 992px) {
-    .playground-container {
-        grid-template-columns: 1fr;
-    }
+/* footer section start*/
+
+.footer {
+    background: #0D1B2A;
+    color: #ffffff;
+    padding: 50px 20px 25px;
+}
+
+.footer-container {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+/* Top Row */
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+/* Logo */
+
+.footer-logo h2 {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.footer-logo span {
+    color: #3B82F6;
+}
+
+.footer-logo img {
+    background-color: rgb(235, 235, 235);
+}
+
+/* Social Icons */
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.social-icons :hover {
+    background: #3B82F6;
+}
+
+/* Divider */
+
+.footer hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+}
+
+/* Bottom */
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.footer-bottom p {
+    font-size: 16px;
+    color: #cbd5e1;
 }
